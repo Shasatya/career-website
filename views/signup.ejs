@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Website 🧡 </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="center">
+        <h1>Sign Up</h1>
+        <form action="/signup" method="POST">
+            <div class="txt_field">
+                <input type="text" name="name" required />
+                <span></span>
+                <label>Name</label>
+            </div>
+            <div class="txt_field">
+                <input type="email" name="username" required />
+                <span></span>
+                <label>Email</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="course" required />
+                <span></span>
+                <label>Course</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="password" required />
+                <span></span>
+                <label>Password</label>
+            </div>
+            <input type="submit" value="Sign Up" />
+            <div class="signup_link">Already a member? <a href="/login">Login</a></div>
+        </form>
+    </div>
+</body>
+
+</html>
